@@ -21,7 +21,7 @@ module example.com/localModule
 require example.com/localModule/model v0.0.0
 replace example.com/localModule/model v0.0.0 => ./model
 ```
-
+- gomod script function
 ```sh
 function gomod ()
 {
