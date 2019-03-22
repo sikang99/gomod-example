@@ -1,7 +1,7 @@
 ## Handling Golang Modules
 
 ### Information
-
+- 2018/12/10 [Go Modules 살펴보기](https://velog.io/@kimmachinegun/Go-Go-Modules-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-7cjn4soifk)
 
 ### History
 - 2019/03/19 [Using Go Modules](https://blog.golang.org/using-go-modules)
