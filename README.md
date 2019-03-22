@@ -7,6 +7,7 @@
 - 2019/03/19 [Using Go Modules](https://blog.golang.org/using-go-modules)
 - 2019/00/00
 - 2018/12/19 [Go Modules in 2019](https://blog.golang.org/modules2019)
+- 2018/10/07 [Introduction to Go Modules in Go v1.11, Goodbye GOPATH!](https://www.melvinvivas.com/go-version-1-11-modules/)
 - 2018/09/11 [Migrating from dep to Go 1.11 modules](https://blog.callr.tech/migrating-from-dep-to-go-1.11-modules/)
 - 2018/08/18 [Introduction to Go Modules](https://roberto.selbach.ca/intro-to-go-modules/)
 - 2018/07/21 [Everything you need to know about Packages in Go](https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc)
