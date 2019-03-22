@@ -8,8 +8,7 @@
 
 
 ### Tips
-
-[Go get cannot find local packages when using modules](https://stackoverflow.com/questions/52079662/go-get-cannot-find-local-packages-when-using-modules)
+- [Go get cannot find local packages when using modules](https://stackoverflow.com/questions/52079662/go-get-cannot-find-local-packages-when-using-modules)
 ```
 module example.com/localModule
 
