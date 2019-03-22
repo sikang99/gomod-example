@@ -2,7 +2,7 @@
 
 ### Information
 - [Go Modules](https://github.com/golang/go/wiki/Modules)
-- [Semantic Versioning](https://semver.org/)
+- [Semantic Versioning](https://semver.org/) - 2.0.0
 
 
 ### 국내상황
@@ -16,6 +16,7 @@
 - 2018/10/07 [Introduction to Go Modules in Go v1.11, Goodbye GOPATH!](https://www.melvinvivas.com/go-version-1-11-modules/)
 - 2018/09/11 [Migrating from dep to Go 1.11 modules](https://blog.callr.tech/migrating-from-dep-to-go-1.11-modules/)
 - 2018/09/01 [A gentle introduction to Golang Modules](https://ukiahsmith.com/blog/a-gentle-introduction-to-golang-modules/)
+- 2018/08/26 [Using Go modules with vendor support on Travis CI](https://arslan.io/2018/08/26/using-go-modules-with-vendor-support-on-travis-ci/)
 - 2018/08/18 [Introduction to Go Modules](https://roberto.selbach.ca/intro-to-go-modules/)
 - 2018/07/21 [Everything you need to know about Packages in Go](https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc)
 - 2018/07/14 [Taking Go modules for a spin](https://dave.cheney.net/2018/07/14/taking-go-modules-for-a-spin)
