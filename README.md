@@ -1,6 +1,9 @@
 ## Handling Golang Modules
 
 ### Information
+
+
+### 국내상황
 - 2018/12/10 [Go Modules 살펴보기](https://velog.io/@kimmachinegun/Go-Go-Modules-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-7cjn4soifk)
 
 ### History
@@ -15,6 +18,15 @@
 
 
 ### Tips
+- [Multiple modules within the same project](https://stackoverflow.com/questions/55041915/multiple-modules-within-the-same-project)
+> A module is a collection of related Go packages that are versioned together as a single unit.
+> Modules record precise dependency requirements and create reproducible builds.
+> Most often, a version control repository contains exactly one module defined in the repository root. (Multiple modules are supported in a single repository, but typically that would result in more work on an on-going basis than a single module per repository).
+> Summarizing the relationship between repositories, modules, and packages:
+> 1. A repository contains one or more Go modules.
+> 2. Each module contains one or more Go packages.
+> 3. Each package consists of one or more Go source files in a single directory.
+
 - [Go get cannot find local packages when using modules](https://stackoverflow.com/questions/52079662/go-get-cannot-find-local-packages-when-using-modules)
 ```
 module example.com/localModule
