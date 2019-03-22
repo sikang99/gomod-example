@@ -21,3 +21,53 @@ module example.com/localModule
 require example.com/localModule/model v0.0.0
 replace example.com/localModule/model v0.0.0 => ./model
 ```
+
+```sh
+function gomod ()
+{
+    if [ $# = 0 ]; then
+        echo "usage: $FUNCNAME [auto|on|off|<command>...]";
+        return;
+    fi;
+    case $1 in
+        . | check)
+            echo "$FUNCNAME> `go version` [`env | grep GO111MODULE`]"
+        ;;
+        on | off | auto)
+            export GO111MODULE=$1;
+            gomod check
+        ;;
+        init | tidy | vendor | verify | graph | why | edit | download)
+            go mod $@
+        ;;
+        tag)
+            git describe --always
+        ;;
+        mod)
+            vi go.mod
+        ;;
+        sum)
+            vi go.sum
+        ;;
+        list)
+            go list -m all
+        ;;
+        vbuild)
+            go build --mod=vendor ./...
+        ;;
+        rebuild)
+            rm -rf go.mod go.sum vendor/;
+            go mod init;
+            go mod tidy;
+            go mod vendor;
+            go build ./...
+        ;;
+        clean)
+            rm -f Gopkg.toml Gopkg.lock glide.yaml glide.lock vendor/vendor.json
+        ;;
+        *)
+            go $@
+        ;;
+    esac
+}
+```
