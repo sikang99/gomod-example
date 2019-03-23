@@ -24,7 +24,10 @@
 
 
 ### History
+- 2019/03/22 [Fetching Private Dependencies with Go Modules](https://medium.com/@tim_raymond/fetching-private-dependencies-with-go-modules-1d65afe47c62)
+- 2019/03/21 [Migrating projects from dep to go modules](http://elliot.land/post/migrating-projects-from-dep-to-go-modules)
 - 2019/03/19 [Using Go Modules](https://blog.golang.org/using-go-modules)
+- 2019/03/15 [Go modules support in Visual Studio Code](https://github.com/Microsoft/vscode-go/wiki/Go-modules-support-in-Visual-Studio-Code)
 - 2019/03/09 [Exposing Go Modules to Prometheus](https://povilasv.me/exposing-go-modules-to-prometheus/)
 - 2019/00/00
 - 2018/12/19 [Go Modules in 2019](https://blog.golang.org/modules2019)
