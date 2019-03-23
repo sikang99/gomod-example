@@ -21,7 +21,7 @@ git g:
 	@echo ""
 
 git-update gu:
-	git add *.md Makefile
+	git add *.md Makefile example/
 	git commit -m "initial commit"
 	#git remote remove go.mod sse.go
 	#git commit -m "add examples"
