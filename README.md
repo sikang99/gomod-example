@@ -23,6 +23,7 @@
 
 ### History
 - 2019/03/19 [Using Go Modules](https://blog.golang.org/using-go-modules)
+- 2019/03/09 [Exposing Go Modules to Prometheus](https://povilasv.me/exposing-go-modules-to-prometheus/)
 - 2019/00/00
 - 2018/12/19 [Go Modules in 2019](https://blog.golang.org/modules2019)
 - 2018/10/07 [Introduction to Go Modules in Go v1.11, Goodbye GOPATH!](https://www.melvinvivas.com/go-version-1-11-modules/)
