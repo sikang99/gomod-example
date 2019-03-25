@@ -9,6 +9,7 @@
 - 2019/03/20 [Debugging and Testing in Golang](https://medium.com/@ibrahimpasha.m.d/debugging-and-testing-in-golang-93f4031b00d9)
 - 2019/03/19 [Testing is Not for Beginners](https://www.calhoun.io/testing-is-not-for-beginners/)
 - 2019/03/18 [Integration Testing in Go: Part I - Executing Tests with Docker](https://www.ardanlabs.com/blog/2019/03/integration-testing-in-go-executing-tests-with-docker.html)
+- 2019/03/16 [Go Multi-Stage Docker Tutorial](https://tutorialedge.net/golang/go-multi-stage-docker-tutorial/)
 - 2017/12/22 [5 advanced testing techniques in Go](https://segment.com/blog/5-advanced-testing-techniques-in-go/)
 
 
